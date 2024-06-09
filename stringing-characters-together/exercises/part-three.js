@@ -15,3 +15,5 @@ console.log(`The abbreviation for ${language} is 'JS' `);
 //1. Use the string methods you know to print 'Title Case' from the string 'title case'.
 
 let notTitleCase = 'title case';
+let string= notTitleCase.replace(/\b\w/g, char =>char.toUpperCase());
+console.log(string);
